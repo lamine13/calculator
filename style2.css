@@ -1,0 +1,111 @@
+body{ 
+   
+  }
+  
+
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+  }
+  
+  header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:#666;
+  }
+  
+  
+  header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  #affichage{
+    background-color:#C3C2AB;
+    margin-right:10px;
+    margin-left:10px;
+    border-radius:6px;
+    border-style:solid;
+    border-color:#B4B39D;
+  }
+  #og{}
+  #calculatrice{  
+   
+    background-color:#E3F2FD;
+    margin-top:100px;  
+    border: 2px solid #908b85;
+    border: 2px solid #42A5F5;
+    border-radius: 20px;
+    box-shadow: 7px 10px 34px 1px 
+                rgba(0, 0, 0, 0.68), 
+                inset -1px -6px 12px 0.1px #74D0F1;   
+   }
+  
+  .btn{
+    text-align:center;
+  }
+  .btn:focus{
+    outline: none;  
+  }
+  
+  .bouton{
+    height:40px;
+    width:19%;
+    margin-right:4%;
+    color:white;
+    background-color:#757575;  
+    box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #424242;
+    border-radius: 8px;  
+  }
+  
+  .bouton-bleu{
+    background-color: #1565C0;   
+    box-shadow:0px 3px 0px 0px #072554, inset -1px -3px 10px 1px #0D47A1;
+  }
+  
+  .bouton-bleu-clair{
+    background-color: #15a7c0;   
+    box-shadow: 0px 3px 0px 0px #10739a, inset -1px -3px 10px 1px #0f768d;
+  }
+  
+  .ligne{
+    padding-left:7%;
+    width: 85%;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;   
+  }
+  
+  #memoire{
+    font-size:17px;
+    margin-right:10px;
+    min-height:25px;
+  }
+  
+  #saisie{
+    font-size:32px;
+    margin-right:10px;
+    min-height:52px;
+  }
+  
+  #saisie-box{
+    width: 85%;  
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #42A5F5;
+    border-radius: 6px;
+    background-color: #BBDEFB;
+    margin-bottom:10px; 
+  }
+  
+  #titre{
+    font-weight:bold;
+    font-size:20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align:center;  
+  }

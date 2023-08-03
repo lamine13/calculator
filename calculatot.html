@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Projet</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+    <a href="index.html#" class="logo">ProjetJS</a>
+    <nav class="navbar">
+        <a href="rapport.html" class="btn">Rapport du travail</a>
+       
+    </nav>
+
+</header>
+<div class="container-fluid  col-xl-3" id="og">      
+  <div id ="calculatrice">
+    <div id="titre">CALCULATRICE</div>      
+    <div id="saisie-box" class="text-right">
+      <div id="saisie">0</div>
+      <!-- <div id="memoire">0</div>   -->
+    </div>
+
+
+
+    <div class="ligne">
+      <button id = "97" class="btn bouton bouton-bleu" value ='AC' onclick="forclear()">AC</button>
+
+
+      <button id = "47" class="btn bouton" value='/'onclick="fordisplay('/')"> &divide;</button>
+      <button id = "42" class="btn bouton" value='*'onclick="fordisplay('*')">X</button>
+    </div>
+    <div class="ligne">
+      <button id = "55" class="btn bouton bouton-bleu-clair" value='7'onclick="fordisplay('7') ">7</button>
+      <button id = "56" class="btn bouton bouton-bleu-clair" value='8'onclick="fordisplay('8') ">8</button>
+      <button id = "57" class="btn bouton bouton-bleu-clair" value='9'onclick="fordisplay('9') ">9</button>
+      <button id = '45' class="btn bouton" value='-'onclick="fordisplay('-')">-</button>
+    </div>
+    <div class="ligne">
+      <button id = "52" class="btn bouton bouton-bleu-clair" value='4'onclick="fordisplay('4') ">4</button>
+      <button id = "53" class="btn bouton bouton-bleu-clair" value='5'onclick="fordisplay('5') ">5</button>
+      <button id = "54" class="btn bouton bouton-bleu-clair" value='6'onclick="fordisplay('6') ">6</button>
+      <button id = "43" class="btn bouton" value='+'onclick="fordisplay('+')">+</button>
+    </div>
+    <div class="ligne">
+      <button id="49" class="btn bouton bouton-bleu-clair" value='1'onclick="fordisplay('1')">1</button>
+      <button id ="50 " class="btn bouton bouton-bleu-clair" value='2'onclick="fordisplay('2') ">2</button>
+      <button id="51" class="btn bouton bouton-bleu-clair" value='3'onclick="fordisplay('3') ">3</button>  
+      
+      
+      <button id="112" class="btn bouton" value='%'onclick="perc()">%</button>      
+    
+    
+    
+    </div>   
+
+    <div class="ligne">
+      <button id="49" class="btn bouton bouton-bleu-clair" value='cos'onclick="cos('value')"> cos</button>
+      <button id ="50 " class="btn bouton bouton-bleu-clair" value='sin'onclick="sin('value') ">sin</button>
+      <button id="51" class="btn bouton bouton-bleu-clair" value='tan'onclick="tan('value') ">tan</button>      
+      <button id = "114" class="btn bouton" value='racine'onclick="racine('value')">&radic;</button>      
+
+    </div>    
+    <div class="ligne">
+      <button id ="48" class="btn bouton bouton-bleu-clair" value='0'onclick="fordisplay('0')">0</button>
+      <button id ="44" class="btn bouton bouton-bleu-clair" value='.'onclick="fordisplay('.')">.</button>
+      <button id="13" class="btn bouton" value='='onclick="solve()">=</button>      
+    </div>           
+  </div>
+</div>
+<!-- partial -->
+<script  src="./s.js"></script>
+
+</body>
+</html>
